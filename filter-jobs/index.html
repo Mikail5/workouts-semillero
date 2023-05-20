@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter categories</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+    <header></header>
+    <main id="contenido">
+        <section id="listaFiltros" class="tarjeta">
+            <p>
+                <span>Frontend<button data-criterio="frontend">&#10005;</button></span>
+                <span>Senior<button data-criterio="senior">&#10005;</button></span>
+            </p>
+            <span id="limpiar">Clear</span>
+        </section>
+        <section class="tarjeta">
+            <div class="info">
+                <img src="images/photosnap.svg" alt="imagen1">
+                <p>Photosnap <span id="nuevo">NEW!</span><span id="destacado">FEATURED</span></p>
+                <p><a href="#">Senior Frontend Developer</a></p>
+                <p>1d ago • FullTime • USA only</p>
+            </div>
+            <div id="filtro">
+                <button data-criterio="frontend">Frontend</button>
+                <button data-criterio="senior">Senior</button>
+                <button data-criterio="senior">HTML</button>
+                <button data-criterio="senior">CSS</button>
+                <button data-criterio="javasript">JavaSript</button>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
